@@ -8,49 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
-<body>
-  <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-      data-mdb-toggle="dropdown" aria-expanded="false">
-      Dropdown button
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li>
-        <a class="dropdown-item" href="#">Another action</a>
-      </li>
-      <li>
-        <a class="dropdown-item" href="#">
-          Submenu &raquo;
-        </a>
-        <ul class="dropdown-menu dropdown-submenu">
-          <li>
-            <a class="dropdown-item" href="#">Submenu item 1</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Submenu item 2</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-            <ul class="dropdown-menu dropdown-submenu">
-              <li>
-                <a class="dropdown-item" href="#">Multi level 1</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Multi level 2</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Submenu item 4</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Submenu item 5</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+<body class="m-0">
+ 
     
     <div class="p-1 bg-color-medium">
         <a href="">
@@ -58,7 +17,7 @@
         </a>
     </div>
     
-    <div class="container bg-white pb-3 my-3 rounded">
+    <div class="container bg-white pb-3 my-3 rounded" id="top_page">
         <header>
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="mt-3 col-lg-1 col-md-1 m-0 p-0 text-end d-flex justify-content-between align-items-center">
@@ -99,19 +58,20 @@
                             <li><a class="dropdown-item" href="#">زبان اصلی</a></li>
                             <li><a class="dropdown-item" href="#">سیاسی</a></li>
                             <li><a class="dropdown-item" href="#">کتاب کودک</a></li>
-                            <li class="drowpdown">
-                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    انواع داستان  
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-end text-end">
-                                    <li><a class="dropdown-item" href="#">داستان های معمایی</a></li>
-                                    <li><a class="dropdown-item" href="#">داستان های فانتزی</a></li>
-                                    <li><a class="dropdown-item" href="#">داستان های درام</a></li>
-                                    <li><a class="dropdown-item" href="#">داستان های علمی تخیلی</a></li>
-                                    <li><a class="dropdown-item" href="#">داستان ها ...</a></li>
-                                </ul>
-                            </li>
+                            
                         </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          انواع داستان  
+                        </button>
+                          <ul class="dropdown-menu dropdown-menu-end text-end">
+                            <li><a class="dropdown-item" href="#">داستان های معمایی</a></li>
+                            <li><a class="dropdown-item" href="#">داستان های فانتزی</a></li>
+                            <li><a class="dropdown-item" href="#">داستان های درام</a></li>
+                            <li><a class="dropdown-item" href="#">داستان های علمی تخیلی</a></li>
+                            <li><a class="dropdown-item" href="#">داستان ها ...</a></li>
+                          </ul>
                       </li>
                       <li class="nav-item"><a class="nav-link" href="#">کتاب های برگزیده</a></li>
                       <li class="nav-item"><a class="nav-link" href="#">جوایز ادبی</a></li>
@@ -297,9 +257,9 @@
     <div class="bg-color-vibrant ">
       <footer class="py-3">
         <ul class="nav justify-content-center border-bottom pb-3 mb-1">
-          <li class="nav-item"><a href="#" class="nav-link px-4 text-body-secondary"><p class="text-light">صفحه اصلی</p></a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-4 text-body-secondary"><p class="text-light">تماس با ما</p></a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-4 text-body-secondary"><p class="text-light">درباره ما</p></a></li>
+          <li class="nav-item"><a href="#top_page" class="nav-link px-4 text-body-secondary"><p class="text-light">صفحه اصلی</p></a></li>
+          <li class="nav-item"><a href="About.html" target="_blank" class="nav-link px-4 text-body-secondary"><p class="text-light">تماس با ما</p></a></li>
+          <li class="nav-item"><a href="About.html" target="_blank" class="nav-link px-4 text-body-secondary"><p class="text-light">درباره ما</p></a></li>
         </ul>
         <h1 class="d-flex p-3 text-light justify-content-center">نارنگی</h1>
       </footer>
