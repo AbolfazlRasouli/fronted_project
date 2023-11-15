@@ -1,16 +1,11 @@
 @font-face {
-    font-family: vazir;
+    font-family: 'vazir';
     
     src: url(fonts/Vazir.woff) format('woff');
-    src: url(fonts/Vazir.woff2) format('woff2');
-    src: url(fonts/Vazir.ttf) format('ttf');
-    src: url(fonts/Vazir.eot);
 }
-/* *{
 
-} */
 body {
-    font-family: vazir !important;
+    font-family: 'vazir' !important;
     color: dimgray !important;
     background-color: #ffe0ca !important;
 }
